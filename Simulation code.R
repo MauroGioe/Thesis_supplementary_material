@@ -32,7 +32,7 @@ tryCatch.W.E <- function(expr)
 
 
 #Simulation
-#There is no check for the validity of the inserted arguments, be careful with the spelling
+#There is no check for the validity of the arguments, be careful with the spelling
 
 sim<-function(n=30,n.var=3,n.fake=3,loops=100,Procedure="LASSO",Structure="Additive",noise.y=1,noise.x=1,Inference="Uncontrolled",
                 val.max=0.5)
